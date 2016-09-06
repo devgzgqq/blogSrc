@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title><%= config.webTitle%></title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="navbar navbar-static-top">
+		<div class="container">
+			<div class="nvabar-header">
+				<a class="navbar-brand" href="/">Myblog</a>
+			</div>
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/sign/signup">注册</a></li>
+				<li><a href="/sign/signin">登录</a></li>
+			</ul>
+		</div>
+	</div>
+	<%- body%>
+</body>
+</html>
